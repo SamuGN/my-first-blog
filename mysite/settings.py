@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', ' . pythonanywhere.com']
 
-
+#Redirecciona la pagina de primer nivel, index
+LOGIN_REDIRECT_URL = '/'
 # Application definition
 
 INSTALLED_APPS = [
